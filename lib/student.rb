@@ -1,16 +1,16 @@
 class Student < User
 
-  attr_accessor :array
+  attr_accessor :knowledge
 
   def initialize()
-    @array = []
+    @knowledge = []
   end
 
 
 
    def learn(string)
     # string of knowledge and adds it to the student's knowledge array
-    @array << string
+    @knowledge << string
    end
 
  end
